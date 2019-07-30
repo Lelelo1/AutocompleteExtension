@@ -1,0 +1,4 @@
+/Users/leowetterek/Projects/AutocompleteExtension/AutocompleteExtension/obj/Debug/netstandard2.0/AutocompleteExtension.csprojAssemblyReference.cache
+/Users/leowetterek/Projects/AutocompleteExtension/AutocompleteExtension/obj/Debug/netstandard2.0/AutocompleteExtension.csproj.CoreCompileInputs.cache
+/Users/leowetterek/Projects/AutocompleteExtension/AutocompleteExtension/obj/Debug/netstandard2.0/AutocompleteExtension.AssemblyInfoInputs.cache
+/Users/leowetterek/Projects/AutocompleteExtension/AutocompleteExtension/obj/Debug/netstandard2.0/AutocompleteExtension.AssemblyInfo.cs

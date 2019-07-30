@@ -1,23 +1,27 @@
-﻿<Properties>
-  <MonoDevelop.Ide.ItemProperties.AutocompleteExtension FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AutocompleteExtension/AutocompleteExtension.cs">
+﻿<Properties StartupConfiguration="{A7AB2BC1-EA32-4E2D-B9A3-95B45E054D41}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AutocompleteExtensionTest/Views/TestPage.xaml.cs">
     <Files>
-      <File FileName="AutocompleteExtension/AutocompleteExtension.cs" Line="84" Column="1" />
-      <File FileName="AutocompleteExtension/ScrollCollectionView.cs" />
+      <File FileName="AutocompleteExtensionTest/Views/TestPage.xaml.cs" Line="14" Column="1" />
+      <File FileName="AutocompleteExtensionTest/Views/TestPage.xaml" Line="13" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AutocompleteExtension" expanded="True">
-            <Node name="AutocompleteExtension" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="AutocompleteExtension.cs" selected="True" />
+            <Node name="AutocompleteExtension" expanded="True" />
+            <Node name="AutocompleteExtensionTest" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="TestPage.xaml" expanded="True">
+                  <Node name="TestPage.xaml.cs" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AutocompleteExtensionTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E76C261E-9F00-4B94-ACA7-F6496E964AC1" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

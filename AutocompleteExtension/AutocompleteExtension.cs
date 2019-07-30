@@ -1,8 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 // using NObservable;
-// using ScrollListView;
-using Control;
+// using ScrollCollectionView;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,11 +9,9 @@ using System.Runtime.CompilerServices;
 using System.Reflection;
 using System.Linq;
 
-using static Xamarin.Forms.VisualElement;
+using Namespace;
 
-using AutocompleteExtension.AutocompleteExtension;
-
-namespace AutocompleteExtension
+namespace Namsespace
 {
     // insperation from: https://github.com/xamarin/Xamarin.Forms/blob/master/Xamarin.Forms.Core/BindableLayout.cs
     public static class Autocomplete
@@ -78,7 +75,7 @@ namespace AutocompleteExtension
     public class AutocompleteController
     {
 
-        public ScrollListView scrollListView = new ScrollListView();
+        public ScrollCollectionView ScrollCollectionView = new ScrollCollectionView();
         public TopContentView OnTop = new TopContentView();
         /*
         [Observable]
@@ -100,19 +97,19 @@ namespace AutocompleteExtension
             /*
             Observe.When(() => ItemsSource != null && (ItemTemplate != null || Build != null), () =>
             {
-                scrollListView.ItemsSource = ItemsSource;
+                ScrollCollectionView.ItemsSource = ItemsSource;
                 if(Build != null)
                 {
-                    scrollListView.Build = Build;
+                    ScrollCollectionView.Build = Build;
                 }
                 else
                 {
-                    scrollListView.Build -= (model) => ItemTemplate;
-                    scrollListView.Build += (model) => ItemTemplate;
+                    ScrollCollectionView.Build -= (model) => ItemTemplate;
+                    ScrollCollectionView.Build += (model) => ItemTemplate;
                 }
             });
             */
-            OnTop.Content = scrollListView;
+            OnTop.Content = ScrollCollectionView;
             var parent = (Layout<View>)inputView.Parent; //
             OnTop.BackgroundColor = Color.Bisque;
             OnTop.IsVisible = false;
