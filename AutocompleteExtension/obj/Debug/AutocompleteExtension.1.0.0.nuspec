@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AutocompleteExtension</id>
+    <version>1.0.0</version>
+    <authors>Lelelo1</authors>
+    <owners>Lelelo1</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/Lelelo1/AutocompleteExtension</projectUrl>
+    <description>Autocomplete for Entry and SearchBar</description>
+    <releaseNotes>Can add autocomplete to Entry and SearchBar</releaseNotes>
+    <tags>Platform, Custom Renderer, Platform-Specific, Effect, Xamarin.Forms</tags>
+    <dependencies>
+      <group targetFramework="MonoAndroid9.0">
+        <dependency id="ScrollCollectionView" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="TopContentView" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="4.1.0.673156" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="ScrollCollectionView" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="TopContentView" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="4.1.0.673156" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="ScrollCollectionView" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="TopContentView" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="4.1.0.673156" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\bin\Debug\netstandard2.0\AutocompleteExtension.dll" target="lib\netstandard2.0\AutocompleteExtension.dll" />
+    <file src="C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\bin\Debug\xamarin.ios10\AutocompleteExtension.dll" target="lib\xamarinios10\AutocompleteExtension.dll" />
+    <file src="C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\bin\Debug\monoandroid90\90\AutocompleteExtension.dll" target="lib\monoandroid90\AutocompleteExtension.dll" />
+    <file src="C:\Users\Leo\Projects\AutocompleteExtension\LICENSE.txt" target="LICENSE.txt" />
+  </files>
+</package>

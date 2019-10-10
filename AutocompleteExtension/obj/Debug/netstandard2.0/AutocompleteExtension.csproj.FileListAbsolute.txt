@@ -2,3 +2,12 @@
 /Users/leowetterek/Projects/AutocompleteExtension/AutocompleteExtension/obj/Debug/netstandard2.0/AutocompleteExtension.csproj.CoreCompileInputs.cache
 /Users/leowetterek/Projects/AutocompleteExtension/AutocompleteExtension/obj/Debug/netstandard2.0/AutocompleteExtension.AssemblyInfoInputs.cache
 /Users/leowetterek/Projects/AutocompleteExtension/AutocompleteExtension/obj/Debug/netstandard2.0/AutocompleteExtension.AssemblyInfo.cs
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\bin\Debug\netstandard2.0\AutocompleteExtension.deps.json
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\bin\Debug\netstandard2.0\AutocompleteExtension.dll
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\obj\Debug\netstandard2.0\AutocompleteExtension.csprojAssemblyReference.cache
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\obj\Debug\netstandard2.0\AutocompleteExtension.AssemblyInfoInputs.cache
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\obj\Debug\netstandard2.0\AutocompleteExtension.AssemblyInfo.cs
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\bin\Debug\netstandard2.0\AutocompleteExtension.pdb
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\obj\Debug\netstandard2.0\AutocompleteExtension.dll
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtension\obj\Debug\netstandard2.0\AutocompleteExtension.pdb

@@ -1,0 +1,16 @@
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\bin\Debug\netstandard2.0\AutocompleteExtensionTest.deps.json
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\bin\Debug\netstandard2.0\AutocompleteExtensionTest.dll
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\bin\Debug\netstandard2.0\ref\AutocompleteExtensionTest.dll
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\bin\Debug\netstandard2.0\AutocompleteExtensionTest.pdb
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\AutocompleteExtensionTest.csprojAssemblyReference.cache
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\AutocompleteExtensionTest.AssemblyInfoInputs.cache
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\AutocompleteExtensionTest.AssemblyInfo.cs
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\AutocompleteExtensionTest.dll
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\ref\AutocompleteExtensionTest.dll
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\AutocompleteExtensionTest.pdb
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\bin\Debug\netstandard2.0\AutocompleteExtension.dll
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\bin\Debug\netstandard2.0\AutocompleteExtension.pdb
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\AutocompleteExtensionTest.csproj.CopyComplete
+C:\Users\Leo\Projects\AutocompleteExtension\AutocompleteExtensionTest\AutocompleteExtensionTest\obj\Debug\netstandard2.0\XamlC.stamp
