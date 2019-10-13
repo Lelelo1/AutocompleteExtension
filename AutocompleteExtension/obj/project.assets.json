@@ -11,6 +11,18 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "NativeObject/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.673156"
+        },
+        "compile": {
+          "lib/netstandard2.0/NativeObject.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NativeObject.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -69,6 +81,21 @@
       }
     },
     "MonoAndroid,Version=v9.0": {
+      "NativeObject/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.673156"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/NativeObject.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/NativeObject.dll": {}
+        }
+      },
       "ScrollCollectionView/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -864,6 +891,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0": {
+      "NativeObject/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.673156"
+        },
+        "compile": {
+          "lib/xamarinios10/NativeObject.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/NativeObject.dll": {}
+        }
+      },
       "ScrollCollectionView/1.0.0": {
         "type": "package",
         "dependencies": {
@@ -1027,6 +1066,20 @@
         "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
         "microsoft.netcore.platforms.nuspec",
         "runtime.json"
+      ]
+    },
+    "NativeObject/1.0.1": {
+      "sha512": "PlUsYcF4epq4IzmAm40UbiAPIrOIwVqgBaVJbnac/yy1jgrze0mlypq7B4gISIGYEnhnHxd9TSWFKfUoALncqA==",
+      "type": "package",
+      "path": "nativeobject/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.txt",
+        "lib/monoandroid90/NativeObject.dll",
+        "lib/netstandard2.0/NativeObject.dll",
+        "lib/xamarinios10/NativeObject.dll",
+        "nativeobject.1.0.1.nupkg.sha512",
+        "nativeobject.nuspec"
       ]
     },
     "NETStandard.Library/2.0.3": {
@@ -2175,16 +2228,19 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "NativeObject >= 1.0.1",
       "ScrollCollectionView >= 1.0.0",
       "TopContentView >= 1.0.2",
       "Xamarin.Forms >= 4.1.0.673156"
     ],
     "MonoAndroid,Version=v9.0": [
+      "NativeObject >= 1.0.1",
       "ScrollCollectionView >= 1.0.0",
       "TopContentView >= 1.0.2",
       "Xamarin.Forms >= 4.1.0.673156"
     ],
     "Xamarin.iOS,Version=v1.0": [
+      "NativeObject >= 1.0.1",
       "ScrollCollectionView >= 1.0.0",
       "TopContentView >= 1.0.2",
       "Xamarin.Forms >= 4.1.0.673156"
@@ -2250,6 +2306,10 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "NativeObject": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "ScrollCollectionView": {
             "target": "Package",
             "version": "[1.0.0, )"
@@ -2277,6 +2337,10 @@
       },
       "monoandroid90": {
         "dependencies": {
+          "NativeObject": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "ScrollCollectionView": {
             "target": "Package",
             "version": "[1.0.0, )"
@@ -2294,6 +2358,10 @@
       },
       "xamarinios10": {
         "dependencies": {
+          "NativeObject": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
           "ScrollCollectionView": {
             "target": "Package",
             "version": "[1.0.0, )"

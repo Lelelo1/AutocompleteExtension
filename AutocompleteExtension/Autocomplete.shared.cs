@@ -113,20 +113,49 @@ namespace Namespace
                     if(set.IsVisible)
                     {
                         set.IsVisible = false;
-                        Console.WriteLine("hide");
                     }
                 }
             });
 
-            // deselection
-            var searchBar = inputView as SearchBar;
-            if(searchBar != null)
-            {
-
-            }
-            var entry = inputView as Entry;
         }        
 
+        public async void HandleDeselectionOnTapOutsideAutocomplete(InputView inputView)
+        {
+            if(inputView as SearchBar == null && inputView as Entry == null)
+            {
+                throw new ArgumentException("Can't handle an InputView that's not a descendant of either Entry or SearchBar ");
+            }
+            // deselection
+            if (inputView is SearchBar searchBar)
+            {
+
+#if __IOS__
+                var iOSSearchBar = await searchBar.On<Xamarin.Forms.PlatformConfiguration.iOS>().iOSAsync();
+                Console.WriteLine("iOSSearchBar is: " + iOSSearchBar);
+
+#else
+#if __ANDROID__
+                var androidSearchBar = await searchBar.On<Xamarin.Forms.PlatformConfiguration.Android>().AndroidAsync();
+                Console.WriteLine("androidSearchBar is: " + androidSearchBar);
+#else
+#endif
+#endif
+            }
+            if(inputView is Entry entry)
+            {
+#if __IOS__
+                var iOSEntry = await entry.On<Xamarin.Forms.PlatformConfiguration.iOS>().iOSAsync();
+                Console.WriteLine("iOSSearchBar is: " + iOSEntry);
+
+#else
+#if __ANDROID__
+                var androidEntry = await entry.On<Xamarin.Forms.PlatformConfiguration.Android>().AndroidAsync();
+                Console.WriteLine("iOSSearchBar is: " + androidEntry);
+#else
+#endif
+#endif
+            }
+        }
 
         public static void FocusChangeRequested(object sender, FocusRequestArgs e)
         {

@@ -150,6 +150,8 @@
 
   <ItemGroup>
 
+    <PackageReference Include="NativeObject" Version="1.0.1" />
+
     <PackageReference Include="ScrollCollectionView" Version="1.0.0" />
 
     <PackageReference Include="TopContentView" Version="1.0.2" />

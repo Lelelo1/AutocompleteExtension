@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "ScrollCollectionView/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.1.0.618606"
-        },
-        "compile": {
-          "lib/netstandard2.0/ScrollCollectionView.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ScrollCollectionView.dll": {}
-        }
-      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -21,18 +9,6 @@
         },
         "runtime": {
           "lib/xamarinios10/_._": {}
-        }
-      },
-      "TopContentView/1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.1.0.618606"
-        },
-        "compile": {
-          "lib/netstandard2.0/TopContentView.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/TopContentView.dll": {}
         }
       },
       "Xamarin.Essentials/1.2.0": {
@@ -50,7 +26,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.848062": {
+      "Xamarin.Forms/4.2.0.709249": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -173,29 +149,12 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
-        "type": "project",
-        "framework": "Xamarin.iOS,Version=v1.0",
-        "dependencies": {
-          "ScrollCollectionView": "1.0.0",
-          "TopContentView": "1.0.2",
-          "Xamarin.Forms": "4.1.0.673156"
-        },
-        "compile": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
-        }
-      },
       "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtension": "1.0.0",
-          "TopContentView": "1.0.2",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.848062"
+          "Xamarin.Forms": "4.2.0.709249"
         },
         "compile": {
           "bin/placeholder/AutocompleteExtensionTest.dll": {}
@@ -206,18 +165,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "ScrollCollectionView/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.1.0.618606"
-        },
-        "compile": {
-          "lib/netstandard2.0/ScrollCollectionView.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ScrollCollectionView.dll": {}
-        }
-      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -225,18 +172,6 @@
         },
         "runtime": {
           "lib/xamarinios10/_._": {}
-        }
-      },
-      "TopContentView/1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.1.0.618606"
-        },
-        "compile": {
-          "lib/netstandard2.0/TopContentView.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/TopContentView.dll": {}
         }
       },
       "Xamarin.Essentials/1.2.0": {
@@ -254,7 +189,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.848062": {
+      "Xamarin.Forms/4.2.0.709249": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -377,29 +312,12 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
-        "type": "project",
-        "framework": "Xamarin.iOS,Version=v1.0",
-        "dependencies": {
-          "ScrollCollectionView": "1.0.0",
-          "TopContentView": "1.0.2",
-          "Xamarin.Forms": "4.1.0.673156"
-        },
-        "compile": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
-        }
-      },
       "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtension": "1.0.0",
-          "TopContentView": "1.0.2",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.848062"
+          "Xamarin.Forms": "4.2.0.709249"
         },
         "compile": {
           "bin/placeholder/AutocompleteExtensionTest.dll": {}
@@ -410,18 +328,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "ScrollCollectionView/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.1.0.618606"
-        },
-        "compile": {
-          "lib/netstandard2.0/ScrollCollectionView.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ScrollCollectionView.dll": {}
-        }
-      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -429,18 +335,6 @@
         },
         "runtime": {
           "lib/xamarinios10/_._": {}
-        }
-      },
-      "TopContentView/1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.1.0.618606"
-        },
-        "compile": {
-          "lib/netstandard2.0/TopContentView.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/TopContentView.dll": {}
         }
       },
       "Xamarin.Essentials/1.2.0": {
@@ -458,7 +352,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.848062": {
+      "Xamarin.Forms/4.2.0.709249": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -581,29 +475,12 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
-        "type": "project",
-        "framework": "Xamarin.iOS,Version=v1.0",
-        "dependencies": {
-          "ScrollCollectionView": "1.0.0",
-          "TopContentView": "1.0.2",
-          "Xamarin.Forms": "4.1.0.673156"
-        },
-        "compile": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
-        }
-      },
       "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtension": "1.0.0",
-          "TopContentView": "1.0.2",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.848062"
+          "Xamarin.Forms": "4.2.0.709249"
         },
         "compile": {
           "bin/placeholder/AutocompleteExtensionTest.dll": {}
@@ -614,18 +491,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "ScrollCollectionView/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.1.0.618606"
-        },
-        "compile": {
-          "lib/netstandard2.0/ScrollCollectionView.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ScrollCollectionView.dll": {}
-        }
-      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -633,18 +498,6 @@
         },
         "runtime": {
           "lib/xamarinios10/_._": {}
-        }
-      },
-      "TopContentView/1.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.1.0.618606"
-        },
-        "compile": {
-          "lib/netstandard2.0/TopContentView.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/TopContentView.dll": {}
         }
       },
       "Xamarin.Essentials/1.2.0": {
@@ -662,7 +515,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.848062": {
+      "Xamarin.Forms/4.2.0.709249": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -785,29 +638,12 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
-        "type": "project",
-        "framework": "Xamarin.iOS,Version=v1.0",
-        "dependencies": {
-          "ScrollCollectionView": "1.0.0",
-          "TopContentView": "1.0.2",
-          "Xamarin.Forms": "4.1.0.673156"
-        },
-        "compile": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
-        }
-      },
       "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtension": "1.0.0",
-          "TopContentView": "1.0.2",
           "Xamarin.Essentials": "1.2.0",
-          "Xamarin.Forms": "4.2.0.848062"
+          "Xamarin.Forms": "4.2.0.709249"
         },
         "compile": {
           "bin/placeholder/AutocompleteExtensionTest.dll": {}
@@ -819,19 +655,6 @@
     }
   },
   "libraries": {
-    "ScrollCollectionView/1.0.0": {
-      "sha512": "W3dAenwpK7ByghoDyDnTCC9rD7a8eC4j2UL/aggYKwzM4SD9SaoERMAX9LUDky/QfuBGAZixbpXVRd/FBRlmKA==",
-      "type": "package",
-      "path": "scrollcollectionview/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/ScrollCollectionView.dll",
-        "lib/netstandard2.0/ScrollCollectionView.pdb",
-        "scrollcollectionview.1.0.0.nupkg.sha512",
-        "scrollcollectionview.nuspec"
-      ]
-    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -879,17 +702,6 @@
         "version.txt"
       ]
     },
-    "TopContentView/1.0.2": {
-      "sha512": "cAPvuvlx/PKhUG9IwR4iQLsaYKeIXKVpKA0PIatqHyoB5mgQBAQ8YKumEeJuqTkpIyNHmDgQjUugL/hCQwVwyQ==",
-      "type": "package",
-      "path": "topcontentview/1.0.2",
-      "files": [
-        ".nupkg.metadata",
-        "lib/netstandard2.0/TopContentView.dll",
-        "topcontentview.1.0.2.nupkg.sha512",
-        "topcontentview.nuspec"
-      ]
-    },
     "Xamarin.Essentials/1.2.0": {
       "sha512": "o3i5uAchUpAvAlJX0onYFFiDo6jpKl9vgvrdDtXEuEfum0UDrSx8oGGBUjlFyUoRpvWVumXwo0VS3AbzuwEofg==",
       "type": "package",
@@ -933,10 +745,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.848062": {
-      "sha512": "/JIC5p3M9h0MdSg+uH3Hy260YIWkXrQA8m4yO/3TQhSSIe+FNwyPi0SkIomvikunWXu6rEJh/aDbFYEyks0mbw==",
+    "Xamarin.Forms/4.2.0.709249": {
+      "sha512": "3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.848062",
+      "path": "xamarin.forms/4.2.0.709249",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1040,6 +852,7 @@
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll.mdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
@@ -1175,14 +988,9 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.848062.nupkg.sha512",
+        "xamarin.forms.4.2.0.709249.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
-    },
-    "AutocompleteExtension/1.0.0": {
-      "type": "project",
-      "path": "../../AutocompleteExtension/AutocompleteExtension.csproj",
-      "msbuildProject": "../../AutocompleteExtension/AutocompleteExtension.csproj"
     },
     "AutocompleteExtensionTest/1.0.0": {
       "type": "project",
@@ -1193,9 +1001,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "AutocompleteExtensionTest >= 1.0.0",
-      "TopContentView >= 1.0.2",
       "Xamarin.Essentials >= 1.2.0",
-      "Xamarin.Forms >= 4.2.0.848062"
+      "Xamarin.Forms >= 4.2.0.709249"
     ]
   },
   "packageFolders": {
@@ -1241,17 +1048,13 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
-          "TopContentView": {
-            "target": "Package",
-            "version": "[1.0.2, )"
-          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.2.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.848062, )"
+            "version": "[4.2.0.709249, )"
           }
         }
       }
