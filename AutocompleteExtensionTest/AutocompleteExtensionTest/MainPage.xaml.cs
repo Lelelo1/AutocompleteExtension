@@ -18,13 +18,21 @@ namespace AutocompleteExtensionTest
         {
             InitializeComponent();
 
-            var testList = new List<string>() { "one", "two", "three", "four", "five", "six", "seven", "eight" };
-            Autocomplete.SetBuild(entry, (object item) =>
+            var testList1 = new List<string>() { "one", "two", "three", "four", "five", "six", "seven", "eight" };
+            Autocomplete.SetBuild(entry1, (object item) =>
             {
                 var render = new Label() { Text = item as string };
                 return new DataTemplate(() => render);
             });
-            Autocomplete.SetItemsSource(entry, testList);
+            Autocomplete.SetItemsSource(entry1, testList1);
+
+            var testList2 = new List<string>() { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten" };
+            Autocomplete.SetBuild(entry2, (object item) =>
+            {
+                var render = new Label() { Text = item as string };
+                return new DataTemplate(() => render);
+            });
+            Autocomplete.SetItemsSource(entry2, testList2);
 
         }
     }

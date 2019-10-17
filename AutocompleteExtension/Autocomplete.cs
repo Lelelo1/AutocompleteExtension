@@ -35,7 +35,7 @@ namespace Namespace
         static readonly BindableProperty IsFocusedProperty =
             BindableProperty.CreateAttached("IsFocused", typeof(bool), )
             */
-        public static readonly BindableProperty AutocompleteControllerProperty =
+        static readonly BindableProperty AutocompleteControllerProperty =
              BindableProperty.CreateAttached("BindableLayoutController", typeof(AutocompleteController), typeof(InputView), default(AutocompleteController),
                  defaultValueCreator: (b) => {
 
@@ -43,7 +43,7 @@ namespace Namespace
                  },
                  propertyChanged: (b, o, n) =>
                  {
-                     Console.WriteLine("Autocompletecontroller property changed");
+                     // Console.WriteLine("Autocompletecontroller property changed");
                      // OnControllerChanged(b, (BindableLayoutController)o, (BindableLayoutController)n)
                  });
 
@@ -82,10 +82,11 @@ namespace Namespace
             OnTop.IsVisible = false;
 
             parent.Children.Add(OnTop);
+            ScrollCollectionView.BackgroundColor = Color.White;
 
             inputView.SetTextChanged((object s, TextChangedEventArgs t) =>
             {
-                Console.WriteLine("TextChanged: " + t.NewTextValue);
+                // Console.WriteLine("TextChanged: " + t.NewTextValue);
                 var sender = (InputView)s;
 
                 var set = OnTop;
@@ -97,9 +98,6 @@ namespace Namespace
                         OnTop.X = sender.X;
                         OnTop.Y = sender.Y + sender.Height;
                         set.IsVisible = true;
-                        Console.WriteLine("show");
-                        OnTop.BackgroundColor = Color.Aquamarine;
-                        Console.WriteLine("items shown: " + ScrollCollectionView.ItemsSource.Count());
                     }
                 }
                 else
@@ -118,7 +116,7 @@ namespace Namespace
         {
             inputView.Unfocused += (object sender, FocusEventArgs e) =>
             {
-                Console.WriteLine("focused: " + e.IsFocused);
+                // Console.WriteLine("focused: " + e.IsFocused);
                 dismiss();
             };
         }
@@ -137,13 +135,6 @@ namespace Namespace
 
     static class Extension 
     {
-        static readonly BindableProperty IsFocusedProperty =
-            BindableProperty.CreateAttached("IsFocused", typeof(bool), typeof(VisualElement), default(bool),
-                propertyChanged: (b, o, n) =>
-                {
-                    Console.WriteLine("b: " + b + ", n: " + n);
-                });
-
         public static void SetTextChanged(this InputView inputView, EventHandler<TextChangedEventArgs> textChangedEventHandler)
         {
             if(inputView is Entry entry)
@@ -160,33 +151,5 @@ namespace Namespace
            
             // or other type of textinputs
         }
-    }
-
-    class ViewModel : INotifyPropertyChanged
-    {
-        protected bool SetProperty<T>(ref T backingStore, T value,
-            [CallerMemberName]string propertyName = "",
-            Action onChanged = null)
-        {
-            if (EqualityComparer<T>.Default.Equals(backingStore, value))
-                return false;
-
-            backingStore = value;
-            onChanged?.Invoke();
-            OnPropertyChanged(propertyName);
-            return true;
-        }
-
-#region INotifyPropertyChanged
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
-        {
-            var changed = PropertyChanged;
-            if (changed == null)
-                return;
-
-            changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-#endregion
     }
 }

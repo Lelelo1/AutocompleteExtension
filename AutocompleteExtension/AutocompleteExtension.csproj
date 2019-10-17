@@ -18,7 +18,7 @@
 
     <Description>Contains extensions similar to BindableLayout that adds autocomplete functionality to xamarin.forms Entry and SearchBar</Description>
 
-    <PackageId>AutocompleteExtensions</PackageId>
+    <PackageId>AutocompleteExtension</PackageId>
   
   </PropertyGroup>
 

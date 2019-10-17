@@ -173,7 +173,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtensions/1.0.0": {
+      "AutocompleteExtension/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -182,17 +182,17 @@
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtension.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtension.dll": {}
         }
       },
       "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtensions": "1.0.0",
+          "AutocompleteExtension": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.848062"
         },
@@ -376,7 +376,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtensions/1.0.0": {
+      "AutocompleteExtension/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -385,17 +385,17 @@
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtension.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtension.dll": {}
         }
       },
       "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtensions": "1.0.0",
+          "AutocompleteExtension": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.848062"
         },
@@ -579,7 +579,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtensions/1.0.0": {
+      "AutocompleteExtension/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -588,17 +588,17 @@
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtension.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtension.dll": {}
         }
       },
       "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtensions": "1.0.0",
+          "AutocompleteExtension": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.848062"
         },
@@ -782,7 +782,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtensions/1.0.0": {
+      "AutocompleteExtension/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -791,17 +791,17 @@
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtension.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtension.dll": {}
         }
       },
       "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtensions": "1.0.0",
+          "AutocompleteExtension": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.848062"
         },
@@ -1176,7 +1176,7 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "AutocompleteExtensions/1.0.0": {
+    "AutocompleteExtension/1.0.0": {
       "type": "project",
       "path": "../../AutocompleteExtension/AutocompleteExtension.csproj",
       "msbuildProject": "../../AutocompleteExtension/AutocompleteExtension.csproj"
