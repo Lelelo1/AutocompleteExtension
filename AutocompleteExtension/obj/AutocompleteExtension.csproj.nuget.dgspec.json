@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtension\\AutocompleteExtension.csproj",
-        "projectName": "AutocompleteExtension",
+        "projectName": "AutocompleteExtensions",
         "projectPath": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtension\\AutocompleteExtension.csproj",
         "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtension\\obj\\",

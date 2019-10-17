@@ -173,7 +173,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
+      "AutocompleteExtensions/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -182,25 +182,25 @@
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         }
       },
-      "AutocompleteExtensions/1.0.0": {
+      "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtension": "1.0.0",
+          "AutocompleteExtensions": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtensionTest.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtensionTest.dll": {}
         }
       }
     },
@@ -376,7 +376,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
+      "AutocompleteExtensions/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -385,25 +385,25 @@
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         }
       },
-      "AutocompleteExtensions/1.0.0": {
+      "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtension": "1.0.0",
+          "AutocompleteExtensions": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtensionTest.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtensionTest.dll": {}
         }
       }
     },
@@ -579,7 +579,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
+      "AutocompleteExtensions/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -588,25 +588,25 @@
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         }
       },
-      "AutocompleteExtensions/1.0.0": {
+      "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtension": "1.0.0",
+          "AutocompleteExtensions": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtensionTest.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtensionTest.dll": {}
         }
       }
     },
@@ -782,7 +782,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
+      "AutocompleteExtensions/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -791,25 +791,25 @@
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         }
       },
-      "AutocompleteExtensions/1.0.0": {
+      "AutocompleteExtensionTest/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "AutocompleteExtension": "1.0.0",
+          "AutocompleteExtensions": "1.0.0",
           "Xamarin.Essentials": "1.2.0",
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtensionTest.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtensions.dll": {}
+          "bin/placeholder/AutocompleteExtensionTest.dll": {}
         }
       }
     }
@@ -1176,12 +1176,12 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "AutocompleteExtension/1.0.0": {
+    "AutocompleteExtensions/1.0.0": {
       "type": "project",
       "path": "../../AutocompleteExtension/AutocompleteExtension.csproj",
       "msbuildProject": "../../AutocompleteExtension/AutocompleteExtension.csproj"
     },
-    "AutocompleteExtensions/1.0.0": {
+    "AutocompleteExtensionTest/1.0.0": {
       "type": "project",
       "path": "../AutocompleteExtensionTest/AutocompleteExtensionTest.csproj",
       "msbuildProject": "../AutocompleteExtensionTest/AutocompleteExtensionTest.csproj"
@@ -1189,7 +1189,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "AutocompleteExtensions >= 1.0.0",
+      "AutocompleteExtensionTest >= 1.0.0",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.709249"
     ]
@@ -1265,7 +1265,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.2.0.848062 to 4.2.0.709249. Reference the package directly from the project to select a different version. \r\n AutocompleteExtensionTest.iOS -> AutocompleteExtensions -> Xamarin.Forms (>= 4.2.0.848062) \r\n AutocompleteExtensionTest.iOS -> Xamarin.Forms (>= 4.2.0.709249)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.2.0.848062 to 4.2.0.709249. Reference the package directly from the project to select a different version. \r\n AutocompleteExtensionTest.iOS -> AutocompleteExtensionTest -> Xamarin.Forms (>= 4.2.0.848062) \r\n AutocompleteExtensionTest.iOS -> Xamarin.Forms (>= 4.2.0.709249)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

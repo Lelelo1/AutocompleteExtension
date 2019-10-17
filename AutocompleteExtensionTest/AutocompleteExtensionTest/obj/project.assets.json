@@ -88,7 +88,7 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
+      "AutocompleteExtensions/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -97,10 +97,10 @@
           "Xamarin.Forms": "4.2.0.848062"
         },
         "compile": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AutocompleteExtension.dll": {}
+          "bin/placeholder/AutocompleteExtensions.dll": {}
         }
       }
     }
@@ -610,7 +610,7 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "AutocompleteExtension/1.0.0": {
+    "AutocompleteExtensions/1.0.0": {
       "type": "project",
       "path": "../../AutocompleteExtension/AutocompleteExtension.csproj",
       "msbuildProject": "../../AutocompleteExtension/AutocompleteExtension.csproj"
@@ -618,7 +618,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "AutocompleteExtension >= 1.0.0",
+      "AutocompleteExtensions >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.848062"
@@ -633,7 +633,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtensionTest\\AutocompleteExtensionTest\\AutocompleteExtensionTest.csproj",
-      "projectName": "AutocompleteExtensions",
+      "projectName": "AutocompleteExtensionTest",
       "projectPath": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtensionTest\\AutocompleteExtensionTest\\AutocompleteExtensionTest.csproj",
       "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtensionTest\\AutocompleteExtensionTest\\obj\\",

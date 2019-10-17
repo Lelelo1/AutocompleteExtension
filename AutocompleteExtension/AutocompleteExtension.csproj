@@ -3,6 +3,23 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Lelelo1</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/Lelelo1/AutocompleteExtension/blob/master/LICENSE</PackageLicenseUrl>
+    <Owners>Lelelo1</Owners>
+    <PackageProjectUrl>https://github.com/Lelelo1/AutocompleteExtension</PackageProjectUrl>
+    <PackageReleaseNotes>Can add autocomplete to entry and searchbar via supplied build function</PackageReleaseNotes>
+    <Summary>Add autocomplete functionality to Entry or SearchBar</Summary>
+    <PackageTags>Xamarin.Forms, Control, Autocomplete, Entry, SearchBar</PackageTags>
+
+    <Title>AutocompleteExtension</Title>
+
+    <Description>Contains extensions similar to BindableLayout that adds autocomplete functionality to xamarin.forms Entry and SearchBar</Description>
+
+    <PackageId>AutocompleteExtensions</PackageId>
+  
   </PropertyGroup>
 
   <ItemGroup>
