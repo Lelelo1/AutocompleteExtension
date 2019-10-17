@@ -26,6 +26,18 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "ScrollCollectionView/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.618606"
+        },
+        "compile": {
+          "lib/netstandard2.0/ScrollCollectionView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ScrollCollectionView.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -33,6 +45,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "TopContentView/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.618606"
+        },
+        "compile": {
+          "lib/netstandard2.0/TopContentView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TopContentView.dll": {}
         }
       },
       "Xamarin.Essentials/1.2.0": {
@@ -47,7 +71,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.2.0.709249": {
+      "Xamarin.Forms/4.2.0.848062": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -62,6 +86,21 @@
         "build": {
           "build/Xamarin.Forms.props": {},
           "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "AutocompleteExtension/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ScrollCollectionView": "1.0.0",
+          "TopContentView": "1.0.2",
+          "Xamarin.Forms": "4.2.0.848062"
+        },
+        "compile": {
+          "bin/placeholder/AutocompleteExtension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutocompleteExtension.dll": {}
         }
       }
     }
@@ -210,6 +249,19 @@
         "netstandard.library.nuspec"
       ]
     },
+    "ScrollCollectionView/1.0.0": {
+      "sha512": "W3dAenwpK7ByghoDyDnTCC9rD7a8eC4j2UL/aggYKwzM4SD9SaoERMAX9LUDky/QfuBGAZixbpXVRd/FBRlmKA==",
+      "type": "package",
+      "path": "scrollcollectionview/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/ScrollCollectionView.dll",
+        "lib/netstandard2.0/ScrollCollectionView.pdb",
+        "scrollcollectionview.1.0.0.nupkg.sha512",
+        "scrollcollectionview.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -257,6 +309,17 @@
         "version.txt"
       ]
     },
+    "TopContentView/1.0.2": {
+      "sha512": "cAPvuvlx/PKhUG9IwR4iQLsaYKeIXKVpKA0PIatqHyoB5mgQBAQ8YKumEeJuqTkpIyNHmDgQjUugL/hCQwVwyQ==",
+      "type": "package",
+      "path": "topcontentview/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "lib/netstandard2.0/TopContentView.dll",
+        "topcontentview.1.0.2.nupkg.sha512",
+        "topcontentview.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.2.0": {
       "sha512": "o3i5uAchUpAvAlJX0onYFFiDo6jpKl9vgvrdDtXEuEfum0UDrSx8oGGBUjlFyUoRpvWVumXwo0VS3AbzuwEofg==",
       "type": "package",
@@ -300,10 +363,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.2.0.709249": {
-      "sha512": "3DWqPSn9kSKJW5mwjmICV/+4IpPQrequEN1VXUhsF0i9KKnfj49jFk9VbJnT9o2aesJAk00NED67XPbSmbxKjw==",
+    "Xamarin.Forms/4.2.0.848062": {
+      "sha512": "/JIC5p3M9h0MdSg+uH3Hy260YIWkXrQA8m4yO/3TQhSSIe+FNwyPi0SkIomvikunWXu6rEJh/aDbFYEyks0mbw==",
       "type": "package",
-      "path": "xamarin.forms/4.2.0.709249",
+      "path": "xamarin.forms/4.2.0.848062",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -543,16 +606,22 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.2.0.709249.nupkg.sha512",
+        "xamarin.forms.4.2.0.848062.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "AutocompleteExtension/1.0.0": {
+      "type": "project",
+      "path": "../../AutocompleteExtension/AutocompleteExtension.csproj",
+      "msbuildProject": "../../AutocompleteExtension/AutocompleteExtension.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "AutocompleteExtension >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.2.0",
-      "Xamarin.Forms >= 4.2.0.709249"
+      "Xamarin.Forms >= 4.2.0.848062"
     ]
   },
   "packageFolders": {
@@ -564,7 +633,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtensionTest\\AutocompleteExtensionTest\\AutocompleteExtensionTest.csproj",
-      "projectName": "AutocompleteExtensionTest",
+      "projectName": "AutocompleteExtensions",
       "projectPath": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtensionTest\\AutocompleteExtensionTest\\AutocompleteExtensionTest.csproj",
       "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtensionTest\\AutocompleteExtensionTest\\obj\\",
@@ -588,7 +657,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtension\\AutocompleteExtension.csproj": {
+              "projectPath": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtension\\AutocompleteExtension.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -612,7 +685,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.2.0.709249, )"
+            "version": "[4.2.0.848062, )"
           }
         },
         "imports": [
