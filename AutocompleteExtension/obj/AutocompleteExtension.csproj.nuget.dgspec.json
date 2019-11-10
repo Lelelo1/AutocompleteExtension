@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtension\\AutocompleteExtension.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.3",
       "restore": {
         "projectUniqueName": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtension\\AutocompleteExtension.csproj",
         "projectName": "AutocompleteExtension",
@@ -52,7 +52,7 @@
             },
             "ScrollCollectionView": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.1, )"
             },
             "TopContentView": {
               "target": "Package",

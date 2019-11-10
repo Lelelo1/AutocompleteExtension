@@ -4,13 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Authors>Lelelo1</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageLicenseUrl>https://github.com/Lelelo1/AutocompleteExtension/blob/master/LICENSE</PackageLicenseUrl>
     <Owners>Lelelo1</Owners>
     <PackageProjectUrl>https://github.com/Lelelo1/AutocompleteExtension</PackageProjectUrl>
-    <PackageReleaseNotes>Can add autocomplete to entry and searchbar via supplied build function</PackageReleaseNotes>
+    <PackageReleaseNotes>Autcomplete activly show changes in list and resizes acordingly</PackageReleaseNotes>
     <Summary>Add autocomplete functionality to Entry or SearchBar</Summary>
     <PackageTags>Xamarin.Forms, Control, Autocomplete, Entry, SearchBar</PackageTags>
 
@@ -23,7 +23,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ScrollCollectionView" Version="1.0.0" />
+    <PackageReference Include="ScrollCollectionView" Version="1.0.1" />
     <PackageReference Include="TopContentView" Version="1.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.2.0.848062" />
   </ItemGroup>

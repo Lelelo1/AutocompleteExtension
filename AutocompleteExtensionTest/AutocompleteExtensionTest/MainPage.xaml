@@ -8,13 +8,12 @@
              xmlns:custom="clr-namespace:AutocompleteExtension;assembly=AutocompleteExtension"
              >
 
-    <StackLayout>
+    <StackLayout x:Name="stack">
         <!-- Place new controls here -->
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="Start" />
-        <SearchBar x:Name="entry1"/>
-        <Entry x:Name="entry2" />
+        <Entry x:Name="entry1"/>
     </StackLayout>
 
 </ContentPage>

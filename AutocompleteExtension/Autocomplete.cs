@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Linq;
+using System.Collections.Specialized;
 
 namespace Namespace
 {
@@ -22,7 +23,11 @@ namespace Namespace
 
         public static readonly BindableProperty ItemsSourceProperty =
             BindableProperty.CreateAttached("ItemsSource", typeof(IEnumerable<object>), typeof(InputView), default(IEnumerable<object>),
-                propertyChanged: (b, o, n) => { GetAutocompleteController(b).ScrollCollectionView.ItemsSource = (IEnumerable<object>)n; });
+                propertyChanged: (b, o, n) =>
+                {
+                    GetAutocompleteController(b).ScrollCollectionView.ItemsSource = (IEnumerable<object>)n;
+                    GetAutocompleteController(b).HandleDynamicItemsSource((IEnumerable<object>)n);
+                });
 
         public static readonly BindableProperty ItemTemplateProperty =
             BindableProperty.CreateAttached("ItemTemplate", typeof(DataTemplate), typeof(InputView), default(DataTemplate),
@@ -82,8 +87,6 @@ namespace Namespace
             OnTop.IsVisible = false;
 
             parent.Children.Add(OnTop);
-            ScrollCollectionView.BackgroundColor = Color.White;
-
             inputView.SetTextChanged((object s, TextChangedEventArgs t) =>
             {
                 // Console.WriteLine("TextChanged: " + t.NewTextValue);
@@ -98,6 +101,7 @@ namespace Namespace
                         OnTop.X = sender.X;
                         OnTop.Y = sender.Y + sender.Height;
                         set.IsVisible = true;
+                        
                     }
                 }
                 else
@@ -109,8 +113,15 @@ namespace Namespace
                 }
             });
 
+            /*
+             * have to manually tell scrollCollectionView to update for some reason (when it is inside topcontentview).
+             * Otherwise if list is empty it will never get a height irregardless of items added later
+             */
+
+            
+
             HandleDeselectionOnTapOutside(() => { OnTop.IsVisible = false; }, inputView);
-        }        
+        }
 
         public void HandleDeselectionOnTapOutside(Action dismiss, InputView inputView)
         {
@@ -121,6 +132,39 @@ namespace Namespace
             };
         }
 
+        // Boilerplate to preform a manual relayout of top contentview
+        private INotifyCollectionChanged oldItemsSource = null;
+        public void HandleDynamicItemsSource(IEnumerable<object> itemsSource)
+        {
+            if (ScrollCollectionView.ItemsSource is INotifyCollectionChanged collection)
+            {
+                if(oldItemsSource != itemsSource) // is new valid itemssource
+                {
+                    collection.CollectionChanged += Refresh_OnCollectionChanged;
+                    if(oldItemsSource != null) // unssubscribe from old itemssource
+                    {
+                        oldItemsSource.CollectionChanged -= Refresh_OnCollectionChanged;
+                    }
+                    oldItemsSource = null;
+                    oldItemsSource = collection;
+                }
+            }
+        }
+
+        private void Refresh_OnCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
+        {
+            /*
+             * forcelayout did not work. It could be so that it is the parent of the TopContentView
+             * that needs forcelayout called. The parent could however be the layout of the whole
+             * page - which might not be very performant to call forcelayout on.
+             */
+            if(OnTop.IsVisible)
+            {
+                Console.WriteLine("Refresh");
+                OnTop.IsVisible = false;
+                OnTop.IsVisible = true;
+            }
+        }
 
         /*
         [Observable]

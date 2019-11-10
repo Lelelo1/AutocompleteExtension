@@ -26,7 +26,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "ScrollCollectionView/1.0.0": {
+      "ScrollCollectionView/1.0.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "4.1.0.618606"
@@ -88,11 +88,11 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "AutocompleteExtension/1.0.0": {
+      "AutocompleteExtension/1.0.3": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "ScrollCollectionView": "1.0.0",
+          "ScrollCollectionView": "1.0.1",
           "TopContentView": "1.0.2",
           "Xamarin.Forms": "4.2.0.848062"
         },
@@ -249,16 +249,15 @@
         "netstandard.library.nuspec"
       ]
     },
-    "ScrollCollectionView/1.0.0": {
-      "sha512": "W3dAenwpK7ByghoDyDnTCC9rD7a8eC4j2UL/aggYKwzM4SD9SaoERMAX9LUDky/QfuBGAZixbpXVRd/FBRlmKA==",
+    "ScrollCollectionView/1.0.1": {
+      "sha512": "xT7Bm2pdBjQxc84hC5JaVHlp4gz9wCllTfpVU0ncOyoN1/XIc+BekjUU0dQ6tUCWlV0ww/ZmazT7jk9xZzs1lw==",
       "type": "package",
-      "path": "scrollcollectionview/1.0.0",
+      "path": "scrollcollectionview/1.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/ScrollCollectionView.dll",
-        "lib/netstandard2.0/ScrollCollectionView.pdb",
-        "scrollcollectionview.1.0.0.nupkg.sha512",
+        "scrollcollectionview.1.0.1.nupkg.sha512",
         "scrollcollectionview.nuspec"
       ]
     },
@@ -610,7 +609,7 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "AutocompleteExtension/1.0.0": {
+    "AutocompleteExtension/1.0.3": {
       "type": "project",
       "path": "../../AutocompleteExtension/AutocompleteExtension.csproj",
       "msbuildProject": "../../AutocompleteExtension/AutocompleteExtension.csproj"
@@ -618,7 +617,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "AutocompleteExtension >= 1.0.0",
+      "AutocompleteExtension >= 1.0.3",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.2.0",
       "Xamarin.Forms >= 4.2.0.848062"

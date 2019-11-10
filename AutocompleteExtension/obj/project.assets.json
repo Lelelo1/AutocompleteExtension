@@ -26,7 +26,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "ScrollCollectionView/1.0.0": {
+      "ScrollCollectionView/1.0.1": {
         "type": "package",
         "dependencies": {
           "Xamarin.Forms": "4.1.0.618606"
@@ -213,16 +213,15 @@
         "netstandard.library.nuspec"
       ]
     },
-    "ScrollCollectionView/1.0.0": {
-      "sha512": "W3dAenwpK7ByghoDyDnTCC9rD7a8eC4j2UL/aggYKwzM4SD9SaoERMAX9LUDky/QfuBGAZixbpXVRd/FBRlmKA==",
+    "ScrollCollectionView/1.0.1": {
+      "sha512": "xT7Bm2pdBjQxc84hC5JaVHlp4gz9wCllTfpVU0ncOyoN1/XIc+BekjUU0dQ6tUCWlV0ww/ZmazT7jk9xZzs1lw==",
       "type": "package",
-      "path": "scrollcollectionview/1.0.0",
+      "path": "scrollcollectionview/1.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/ScrollCollectionView.dll",
-        "lib/netstandard2.0/ScrollCollectionView.pdb",
-        "scrollcollectionview.1.0.0.nupkg.sha512",
+        "scrollcollectionview.1.0.1.nupkg.sha512",
         "scrollcollectionview.nuspec"
       ]
     },
@@ -488,7 +487,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "ScrollCollectionView >= 1.0.0",
+      "ScrollCollectionView >= 1.0.1",
       "TopContentView >= 1.0.2",
       "Xamarin.Forms >= 4.2.0.848062"
     ]
@@ -499,7 +498,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.3",
     "restore": {
       "projectUniqueName": "C:\\Users\\Leo\\Projects\\AutocompleteExtension\\AutocompleteExtension\\AutocompleteExtension.csproj",
       "projectName": "AutocompleteExtension",
@@ -546,7 +545,7 @@
           },
           "ScrollCollectionView": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.0.1, )"
           },
           "TopContentView": {
             "target": "Package",

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Namespace;
+using System.Collections.ObjectModel;
 
 namespace AutocompleteExtensionTest
 {
@@ -14,6 +15,7 @@ namespace AutocompleteExtensionTest
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        ObservableCollection<string> observableCollection = new ObservableCollection<string>() { "one", "two", "three" };
         public MainPage()
         {
             InitializeComponent();
@@ -24,16 +26,42 @@ namespace AutocompleteExtensionTest
                 var render = new Label() { Text = item as string };
                 return new DataTemplate(() => render);
             });
-            Autocomplete.SetItemsSource(entry1, testList1);
-
-            var testList2 = new List<string>() { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten" };
-            Autocomplete.SetBuild(entry2, (object item) =>
+            Autocomplete.SetItemsSource(entry1, observableCollection);
+            Autocomplete.GetAutocompleteController(entry1).ScrollCollectionView.MaxItemsShown = 7;
+            var onTap = new TapGestureRecognizer();
+            int i = 0;
+            onTap.Tapped += (object sender, EventArgs e) => 
             {
-                var render = new Label() { Text = item as string };
-                return new DataTemplate(() => render);
+                
+                Console.WriteLine("Tapped");
+                observableCollection.Add("item " + i);
+                i++;
+            };
+            Task.Run(() =>
+            {
+                Task.Delay(6000).ContinueWith((action) =>
+                {
+                    Device.BeginInvokeOnMainThread(() =>
+                    {
+                        Console.WriteLine("adding");
+                        observableCollection.Add("whoa1");
+                        observableCollection.Add("whoa2");
+                        observableCollection.Add("whoa3");
+                        observableCollection.Add("whoa4");
+                        observableCollection.Add("whoa5");
+                    });
+                });
             });
-            Autocomplete.SetItemsSource(entry2, testList2);
+            stack.GestureRecognizers.Add(onTap);
 
+            var autocompleteController = Autocomplete.GetAutocompleteController(entry1);
+            var testTap = new TapGestureRecognizer();
+            testTap.Tapped += (object sender, EventArgs e) =>
+            {
+                Console.WriteLine("Tapped scrollview");
+            };
+            autocompleteController.ScrollCollectionView.GestureRecognizers.Add(testTap);
         }
+
     }
 }
